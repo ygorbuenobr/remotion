@@ -4,8 +4,10 @@
   "description": "Gerador de vídeos verticais educacionais (formato Seu Auditor) com Remotion",
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts Video out/video.mp4",
-    "typecheck": "tsc --noEmit"
+    "render": "remotion render src/index.ts Video out/video.mp4 --props=roteiro/tesla-ancoragem.json",
+    "typecheck": "tsc --noEmit",
+    "validate": "node scripts/validate-roteiro.mjs roteiro/*.json --expect=132",
+    "test": "npm run typecheck && npm run validate"
   },
   "repository": {
     "type": "git",

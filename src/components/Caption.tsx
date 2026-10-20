@@ -2,25 +2,20 @@ import React from "react";
 import { interpolate, useCurrentFrame } from "remotion";
 import { theme } from "../theme";
 
-// Legenda centralizada no terço inferior, com fade-in curto.
-export const Caption: React.FC<{ text: string; fadeFrames?: number }> = ({
-  text,
-  fadeFrames = 8,
-}) => {
+// Legenda centralizada, abaixo da área de visual. Fade-in de 8 frames.
+export const Caption: React.FC<{ text: string }> = ({ text }) => {
   const frame = useCurrentFrame();
-  const opacity = interpolate(frame, [0, fadeFrames], [0, 1], {
-    extrapolateRight: "clamp",
-  });
+  const opacity = interpolate(frame, [0, 8], [0, 1], { extrapolateRight: "clamp" });
   return (
     <div
       style={{
         position: "absolute",
         left: theme.marginX,
         right: theme.marginX,
-        bottom: 220,
+        bottom: theme.captionBottom,
         textAlign: "center",
-        fontSize: 40,
-        lineHeight: 1.25,
+        fontSize: theme.captionSize,
+        lineHeight: 1.28,
         fontWeight: 500,
         color: theme.text,
         opacity,

@@ -1,40 +1,1761 @@
 {
   "meta": {
-    "title": "Tesla Roadster — Ancoragem de preço (exemplo parcial)",
-    "section": "Tesla Roadster · Ancoragem",
+    "title": "Tesla Roadster — Ancoragem de preço",
+    "section": "TESLA ROADSTER · 3 VERSÕES",
     "date": "15 OUT 2026",
     "brand": "SEU AUDITOR",
     "handle": "@seu.auditor"
   },
   "scenes": [
-    { "type": "title", "duration": 6, "text": "O carro voador da Tesla não está à venda." },
-    { "type": "caption", "duration": 6, "text": "Ele existe para vender a versão normal." },
-    { "type": "caption", "duration": 4, "text": "O Rocket é o que voa." },
     {
-      "type": "bars",
-      "duration": 8,
-      "unitValue": 10000,
-      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "type": "cards",
+      "duration": 2,
+      "header": {
+        "left": "TESLA ROADSTER · DEMONSTRAÇÃO",
+        "right": "15 OUT 2026"
+      },
+      "caption": "O carro voador da Tesla não está à venda.",
+      "arc": "big",
+      "carGround": true,
+      "items": []
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "header": {
+        "left": "TESLA ROADSTER · DEMONSTRAÇÃO",
+        "right": "15 OUT 2026"
+      },
+      "caption": "Ele existe para vender a versão normal.",
+      "arc": "big",
+      "notes": [
+        {
+          "text": "de cabeça para baixo,\npreso por sucção",
+          "x": 40,
+          "y": 200
+        }
+      ],
       "items": [
-        { "label": "Thrust", "sublabel": "pista", "value": 250000, "valueLabel": "US$ 250 mil", "highlight": true },
-        { "label": "Performance", "sublabel": "rua", "value": 50000, "valueLabel": "US$ 50 mil" }
+        {
+          "title": "Roadster Rocket",
+          "sub": "a versão que voa",
+          "sub2": "só por convite · sem preço",
+          "col": 1
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "header": {
+        "left": "TESLA ROADSTER · DEMONSTRAÇÃO",
+        "right": "15 OUT 2026"
+      },
+      "caption": "Ele existe para vender a versão normal.",
+      "arc": "big",
+      "notes": [
+        {
+          "text": "de cabeça para baixo,\npreso por sucção",
+          "x": 40,
+          "y": 200
+        },
+        {
+          "text": "jatos de gás frio\nfreiam a descida",
+          "x": 40,
+          "y": 300
+        }
+      ],
+      "items": [
+        {
+          "title": "Performance",
+          "sub": "a versão de rua",
+          "sub2": "à venda",
+          "col": 0
+        },
+        {
+          "title": "Roadster Rocket",
+          "sub": "a versão que voa",
+          "sub2": "só por convite · sem preço",
+          "col": 1
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "duration": 4,
+      "caption": "A Tesla acabou de apresentar o novo Roadster em três versões.",
+      "kicker": "Texas · quinta-feira, 15 de outubro de 2026",
+      "headline": "Tesla apresenta o novo Roadster em três versões",
+      "lede": "Rocket, Thrust e Performance; produção prevista para 2028",
+      "source": "Fortune, 17 out 2026 · Fox News, 18 out 2026"
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "O Rocket é o que voa:",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "style": "dashed",
+          "icon": "rocket"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "só pode ser comprado por convite e ainda não tem preço definido.",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "O Thrust, versão de pista,",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "exige uma reserva de 250 mil dólares.",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        },
+        {
+          "title": "Thrust",
+          "sub": "2 lugares · 4 propulsores · pista",
+          "style": "solid",
+          "icon": "thrust"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "exige uma reserva de 250 mil dólares.",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        },
+        {
+          "title": "Thrust",
+          "sub": "2 lugares · 4 propulsores · pista",
+          "price": "US$ 250 mil",
+          "style": "solid",
+          "icon": "thrust"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "E o Performance, a versão de rua,",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        },
+        {
+          "title": "Thrust",
+          "sub": "2 lugares · 4 propulsores · pista",
+          "price": "US$ 250 mil",
+          "style": "solid",
+          "icon": "thrust"
+        },
+        {
+          "title": "Performance",
+          "sub": "2 lugares · versão de rua",
+          "style": "muted",
+          "icon": "performance"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "exige uma reserva de 50 mil.",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "dashed",
+          "icon": "rocket"
+        },
+        {
+          "title": "Thrust",
+          "sub": "2 lugares · 4 propulsores · pista",
+          "price": "US$ 250 mil",
+          "style": "solid",
+          "icon": "thrust"
+        },
+        {
+          "title": "Performance",
+          "sub": "2 lugares · versão de rua",
+          "price": "US$ 50 mil",
+          "style": "solid",
+          "icon": "performance"
+        }
+      ]
+    },
+    {
+      "type": "cards",
+      "duration": 2,
+      "caption": "Vamos fazer um raio-x dessa estratégia.",
+      "footnote": "reserva = US$ 5 mil na hora + o resto em 10 dias",
+      "source": "Fox News, 18 out 2026 · Fortune, 17 out 2026",
+      "items": [
+        {
+          "title": "Rocket",
+          "sub": "1 lugar · 10 propulsores · voa",
+          "sub2": "só por convite · preço não definido",
+          "style": "muted",
+          "icon": "rocket"
+        },
+        {
+          "title": "Thrust",
+          "sub": "2 lugares · 4 propulsores · pista",
+          "price": "US$ 250 mil",
+          "style": "muted",
+          "icon": "thrust"
+        },
+        {
+          "title": "Performance",
+          "sub": "2 lugares · versão de rua",
+          "price": "US$ 50 mil",
+          "style": "muted",
+          "icon": "performance"
+        }
+      ]
+    },
+    {
+      "type": "tree",
+      "duration": 2,
+      "header": {
+        "left": "RAIO-X DA ESTRATÉGIA",
+        "right": ""
+      },
+      "caption": "Vamos fazer um raio-x dessa estratégia.",
+      "stage": 0,
+      "root": {
+        "title": "Rocket",
+        "sub": "o carro que voa"
+      }
+    },
+    {
+      "type": "tree",
+      "duration": 2,
+      "header": {
+        "left": "RAIO-X DA ESTRATÉGIA",
+        "right": ""
+      },
+      "caption": "Quase ninguém vai comprar o Rocket,",
+      "stage": 1,
+      "root": {
+        "title": "Rocket",
+        "sub": "o carro que voa"
+      },
+      "vendas": "quase nenhuma"
+    },
+    {
+      "type": "tree",
+      "duration": 2,
+      "header": {
+        "left": "RAIO-X DA ESTRATÉGIA",
+        "right": ""
+      },
+      "caption": "mas ele cumpre duas funções.",
+      "stage": 2,
+      "root": {
+        "title": "Rocket",
+        "sub": "o carro que voa"
+      },
+      "vendas": "quase nenhuma"
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "Primeiro: atenção.",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": null,
+      "arc": null
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "Milhões de pessoas viram um carro subir uma rampa.",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": {
+        "label": "Visualizações de um único clipe",
+        "unit": "1 quadrado = 100 mil",
+        "blocks": 17,
+        "value": "1,7 mi",
+        "source": "Newsweek, 15 out 2026 · vídeo da demonstração no X"
+      },
+      "arc": "rampa",
+      "carRampa": 0
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "até ficar de cabeça para baixo",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": {
+        "label": "Visualizações de um único clipe",
+        "unit": "1 quadrado = 100 mil",
+        "blocks": 17,
+        "value": "1,7 mi",
+        "source": "Newsweek, 15 out 2026 · vídeo da demonstração no X"
+      },
+      "arc": "rampa",
+      "carRampa": 1
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "e depois saltar por cima de outros cinco veículos.",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": {
+        "label": "Visualizações de um único clipe",
+        "unit": "1 quadrado = 100 mil",
+        "blocks": 17,
+        "value": "1,7 mi",
+        "source": "Newsweek, 15 out 2026 · vídeo da demonstração no X"
+      },
+      "arc": "both",
+      "carRampa": 1,
+      "carSalto": 0.5,
+      "cars": true
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "Nenhuma campanha publicitária compra esse tipo de alcance.",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": {
+        "label": "Visualizações de um único clipe",
+        "unit": "1 quadrado = 100 mil",
+        "blocks": 17,
+        "value": "1,7 mi",
+        "source": "Newsweek, 15 out 2026 · vídeo da demonstração no X"
+      },
+      "arc": "both",
+      "carRampa": 1,
+      "carSalto": 1,
+      "cars": true
+    },
+    {
+      "type": "attention",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 1 · ATENÇÃO",
+        "right": ""
+      },
+      "caption": "Nenhuma campanha publicitária compra esse tipo de alcance.",
+      "title": "Atenção",
+      "sub": "um carro que voa vira notícia",
+      "metric": {
+        "label": "Visualizações de um único clipe",
+        "unit": "1 quadrado = 100 mil",
+        "blocks": 17,
+        "value": "1,7 mi",
+        "source": "Newsweek, 15 out 2026 · vídeo da demonstração no X"
+      },
+      "arc": "both",
+      "carRampa": 1,
+      "carSalto": 1,
+      "cars": true,
+      "campaign": true
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2",
+        "right": ""
+      },
+      "caption": "Segundo: ele cria uma escada de preços.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": []
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "Segundo: ele cria uma escada de preços.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "ghost",
+          "unknown": true
+        },
+        {
+          "state": "ghost",
+          "blocks": 25
+        },
+        {
+          "state": "ghost",
+          "blocks": 5
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "O Rocket é o sonho inalcançável.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "ghost",
+          "blocks": 25
+        },
+        {
+          "state": "ghost",
+          "blocks": 5
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "O Thrust é a âncora:",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "label": "Thrust",
+          "sub": "a âncora"
+        },
+        {
+          "state": "ghost",
+          "blocks": 5
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "250 mil dólares só para entrar na fila.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "ghost",
+          "blocks": 5
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "ghost",
+          "blocks": 5
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "full",
+          "blocks": 5,
+          "valueLabel": "US$ 50 mil",
+          "label": "Performance",
+          "sub": "parece razoável"
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "full",
+          "blocks": 5,
+          "valueLabel": "US$ 50 mil",
+          "label": "Performance",
+          "sub": "parece razoável"
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "full",
+          "unknown": true,
+          "blocks": 5,
+          "valueLabel": "US$ 50 mil",
+          "label": "Performance",
+          "sub": "parece razoável",
+          "sub2": "só a reserva"
+        }
+      ]
+    },
+    {
+      "type": "ladder",
+      "duration": 2,
+      "header": {
+        "left": "FUNÇÃO 2 · ESCADA DE PREÇOS",
+        "right": ""
+      },
+      "caption": "não o preço do carro.",
+      "title": "Reserva exigida",
+      "unit": "1 quadrado = US$ 10 mil",
+      "unitValue": 10000,
+      "bars": [
+        {
+          "state": "full",
+          "unknown": true,
+          "label": "Rocket",
+          "sub": "o sonho",
+          "sub2": "sem preço · convite"
+        },
+        {
+          "state": "full",
+          "blocks": 25,
+          "valueLabel": "US$ 250 mil",
+          "label": "Thrust",
+          "sub": "a âncora",
+          "sub2": "só para a fila"
+        },
+        {
+          "state": "full",
+          "unknown": true,
+          "blocks": 5,
+          "valueLabel": "US$ 50 mil",
+          "label": "Performance",
+          "sub": "parece razoável",
+          "sub2": "só a reserva"
+        }
+      ],
+      "footnote": "reserva ≠ preço do carro",
+      "source": "Tesla não anunciou os preços · Fortune, 17 out 2026"
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "ANCORAGEM DE PREÇO",
+        "right": ""
+      },
+      "caption": "Isso se chama ancoragem de preço.",
+      "verbete": {
+        "title": "Ancoragem de preço",
+        "text": "o primeiro número apresentado vira\na referência para julgar os seguintes"
+      },
+      "rails": []
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "ANCORAGEM DE PREÇO",
+        "right": ""
+      },
+      "caption": "O primeiro número que a gente vê vira a régua para julgar todos os outros.",
+      "verbete": {
+        "title": "Ancoragem de preço",
+        "text": "o primeiro número apresentado vira\na referência para julgar os seguintes",
+        "source": "TVERSKY E KAHNEMAN · SCIENCE · 1974"
+      },
+      "rails": [
+        {
+          "y": 570,
+          "max": 250000,
+          "markers": [
+            {
+              "value": 250000,
+              "above": {
+                "label": "US$ 250 mil",
+                "sub": "o primeiro número"
+              },
+              "accent": true
+            }
+          ]
+        }
       ]
     },
     {
       "type": "ruler",
-      "duration": 6,
-      "max": 250000,
-      "caption": "O primeiro número que a gente vê vira a régua.",
-      "markers": [
-        { "label": "Performance", "value": 50000 },
-        { "label": "Thrust", "value": 250000, "highlight": true }
+      "duration": 2,
+      "header": {
+        "left": "ANCORAGEM DE PREÇO",
+        "right": ""
+      },
+      "caption": "O primeiro número que a gente vê vira a régua para julgar todos os outros.",
+      "verbete": {
+        "title": "Ancoragem de preço",
+        "text": "o primeiro número apresentado vira\na referência para julgar os seguintes",
+        "source": "TVERSKY E KAHNEMAN · SCIENCE · 1974"
+      },
+      "rails": [
+        {
+          "y": 570,
+          "max": 250000,
+          "zero": true,
+          "markers": [
+            {
+              "value": 250000,
+              "above": {
+                "label": "US$ 250 mil",
+                "sub": "o primeiro número"
+              },
+              "accent": true
+            },
+            {
+              "value": 50000,
+              "below": {
+                "label": "US$ 50 mil",
+                "sub": "parece pouco"
+              }
+            }
+          ]
+        }
       ]
     },
-    { "type": "caption", "duration": 4, "text": "Isso se chama ancoragem de preço." },
     {
-      "type": "endcard",
-      "duration": 8,
-      "cta": "Se você quer entender mais sobre gestão, siga o nosso perfil."
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "ANCORAGEM DE PREÇO",
+        "right": ""
+      },
+      "caption": "Pequenas empresas também podem usar essa estratégia.",
+      "verbete": {
+        "title": "Ancoragem de preço",
+        "text": "o primeiro número apresentado vira\na referência para julgar os seguintes",
+        "source": "TVERSKY E KAHNEMAN · SCIENCE · 1974"
+      },
+      "rails": [
+        {
+          "y": 570,
+          "max": 250000,
+          "zero": true,
+          "markers": [
+            {
+              "value": 250000,
+              "above": {
+                "label": "US$ 250 mil",
+                "sub": "o primeiro número"
+              },
+              "accent": true
+            },
+            {
+              "value": 50000,
+              "below": {
+                "label": "US$ 50 mil",
+                "sub": "parece pouco"
+              }
+            }
+          ]
+        }
+      ],
+      "box": {
+        "title": "Pequenas empresas",
+        "sub": "a mesma lógica, em escala menor"
+      }
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "ANCORAGEM DE PREÇO",
+        "right": ""
+      },
+      "caption": "Pequenas empresas também podem usar essa estratégia.",
+      "verbete": {
+        "title": "Ancoragem de preço",
+        "text": "o primeiro número apresentado vira\na referência para julgar os seguintes",
+        "source": "TVERSKY E KAHNEMAN · SCIENCE · 1974"
+      },
+      "rails": [
+        {
+          "y": 570,
+          "max": 250000,
+          "zero": true,
+          "markers": [
+            {
+              "value": 250000,
+              "above": {
+                "label": "US$ 250 mil",
+                "sub": "o primeiro número"
+              },
+              "accent": true
+            },
+            {
+              "value": 50000,
+              "below": {
+                "label": "US$ 50 mil",
+                "sub": "parece pouco"
+              }
+            }
+          ]
+        }
+      ],
+      "box": {
+        "title": "Pequenas empresas",
+        "sub": "a mesma lógica, em escala menor"
+      }
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Os restaurantes fazem isso o tempo todo.",
+      "items": [
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "O prato “recomendação do chef” costuma",
+      "items": [
+        {
+          "name": "Recomendação do chef",
+          "price": null,
+          "style": "dashed"
+        },
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "ser bem mais caro que o resto do cardápio.",
+      "items": [
+        {
+          "name": "Recomendação do chef",
+          "price": "R$ 240",
+          "sub": "bem acima do resto",
+          "style": "dashed"
+        },
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ]
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Pouca gente pede, mas ele faz o prato de 80 reais",
+      "items": [
+        {
+          "name": "Recomendação do chef",
+          "price": "R$ 240",
+          "sub": "bem acima do resto · poucos pedidos",
+          "style": "dashed"
+        },
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ],
+      "chart": {
+        "title": "Pedidos numa noite",
+        "unit": "1 quadrado = 1 pedido · ilustrativo",
+        "rows": []
+      }
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Pouca gente pede, mas ele faz o prato de 80 reais",
+      "items": [
+        {
+          "name": "Recomendação do chef",
+          "price": "R$ 240",
+          "sub": "bem acima do resto · poucos pedidos",
+          "style": "dashed"
+        },
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80",
+          "style": "solid"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ],
+      "chart": {
+        "title": "Pedidos numa noite",
+        "unit": "1 quadrado = 1 pedido · ilustrativo",
+        "rows": [
+          {
+            "label": "chef",
+            "blocks": 1
+          }
+        ]
+      }
+    },
+    {
+      "type": "menu",
+      "duration": 2,
+      "header": {
+        "left": "CARDÁPIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "parecer uma escolha sensata.",
+      "items": [
+        {
+          "name": "Recomendação do chef",
+          "price": "R$ 240",
+          "sub": "bem acima do resto · poucos pedidos",
+          "style": "dashed"
+        },
+        {
+          "name": "Filé ao molho de pimenta",
+          "price": "R$ 80",
+          "style": "solid",
+          "note": "← parece sensato"
+        },
+        {
+          "name": "Risoto de cogumelos",
+          "price": "R$ 72"
+        },
+        {
+          "name": "Frango grelhado",
+          "price": "R$ 58"
+        },
+        {
+          "name": "Salada da casa",
+          "price": "R$ 46"
+        }
+      ],
+      "chart": {
+        "title": "Pedidos numa noite",
+        "unit": "1 quadrado = 1 pedido · ilustrativo",
+        "rows": [
+          {
+            "label": "chef",
+            "blocks": 1
+          },
+          {
+            "label": "filé · R$ 80",
+            "blocks": 16
+          }
+        ]
+      }
+    },
+    {
+      "type": "bottles",
+      "duration": 2,
+      "header": {
+        "left": "CARTA DE VINHOS",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Na carta de vinhos, a lógica é a mesma:",
+      "unit": "1 quadrado = R$ 50 · mesma escala",
+      "bottles": [
+        {
+          "dashed": true
+        },
+        {}
+      ]
+    },
+    {
+      "type": "bottles",
+      "duration": 2,
+      "header": {
+        "left": "CARTA DE VINHOS",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "a garrafa de mil reais existe para vender a de 150.",
+      "unit": "1 quadrado = R$ 50 · mesma escala",
+      "bottles": [
+        {
+          "dashed": true,
+          "blocks": 20,
+          "label": "R$ 1.000",
+          "sub": "a âncora"
+        },
+        {}
+      ]
+    },
+    {
+      "type": "bottles",
+      "duration": 2,
+      "header": {
+        "left": "CARTA DE VINHOS",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "a garrafa de mil reais existe para vender a de 150.",
+      "unit": "1 quadrado = R$ 50 · mesma escala",
+      "bottles": [
+        {
+          "dashed": true,
+          "blocks": 20,
+          "label": "R$ 1.000",
+          "sub": "a âncora"
+        },
+        {
+          "blocks": 3,
+          "label": "R$ 150",
+          "sub": "a que vende"
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Isso funciona em qualquer negócio.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": []
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Uma consultoria pode oferecer um pacote premium com acompanhamento mensal",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "hidden"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "hidden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Uma consultoria pode oferecer um pacote premium com acompanhamento mensal",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "hidden"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dashed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "ao lado do diagnóstico pontual.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "solid"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dashed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Uma academia pode criar um plano com personal incluso.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "dim"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dim"
+            }
+          ]
+        },
+        {
+          "label": "Academia",
+          "items": [
+            {
+              "name": "Plano básico",
+              "sub": "só o acesso",
+              "style": "solid"
+            },
+            {
+              "name": "Plano com personal",
+              "sub": "treino acompanhado",
+              "style": "hidden"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "Uma academia pode criar um plano com personal incluso.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "dim"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dim"
+            }
+          ]
+        },
+        {
+          "label": "Academia",
+          "items": [
+            {
+              "name": "Plano básico",
+              "sub": "só o acesso",
+              "style": "solid"
+            },
+            {
+              "name": "Plano com personal",
+              "sub": "treino acompanhado",
+              "style": "dashed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "O objetivo não é vender o item mais caro,",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "footer": "OBJETIVO ≠ VENDER O ITEM MAIS CARO",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "dim"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dim"
+            }
+          ]
+        },
+        {
+          "label": "Academia",
+          "items": [
+            {
+              "name": "Plano básico",
+              "sub": "só o acesso",
+              "style": "dim"
+            },
+            {
+              "name": "Plano com personal",
+              "sub": "treino acompanhado",
+              "style": "dim"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "e sim mudar a régua com que o cliente mede o resto.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "dim"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dim"
+            }
+          ]
+        },
+        {
+          "label": "Academia",
+          "items": [
+            {
+              "name": "Plano básico",
+              "sub": "só o acesso",
+              "style": "dim"
+            },
+            {
+              "name": "Plano com personal",
+              "sub": "treino acompanhado",
+              "style": "dim"
+            }
+          ]
+        }
+      ],
+      "rails": [
+        {
+          "y": 760,
+          "max": 100,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "opção-âncora",
+                "sub": "define a régua"
+              },
+              "accent": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "options",
+      "duration": 2,
+      "header": {
+        "left": "EM QUALQUER NEGÓCIO",
+        "right": "ILUSTRATIVO"
+      },
+      "caption": "e sim mudar a régua com que o cliente mede o resto.",
+      "title": "A âncora",
+      "sub": "uma opção cara ao lado da principal",
+      "footer": "OBJETIVO ≠ VENDER O ITEM MAIS CARO",
+      "groups": [
+        {
+          "label": "Consultoria",
+          "items": [
+            {
+              "name": "Diagnóstico pontual",
+              "sub": "um projeto só",
+              "style": "dim"
+            },
+            {
+              "name": "Pacote premium",
+              "sub": "acompanhamento mensal",
+              "style": "dim"
+            }
+          ]
+        },
+        {
+          "label": "Academia",
+          "items": [
+            {
+              "name": "Plano básico",
+              "sub": "só o acesso",
+              "style": "dim"
+            },
+            {
+              "name": "Plano com personal",
+              "sub": "treino acompanhado",
+              "style": "dim"
+            }
+          ]
+        }
+      ],
+      "rails": [
+        {
+          "y": 760,
+          "max": 100,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "opção-âncora",
+                "sub": "define a régua"
+              },
+              "accent": true
+            },
+            {
+              "value": 33,
+              "below": {
+                "label": "o resto",
+                "sub": "medido por ela"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "CUIDADO",
+        "right": ""
+      },
+      "caption": "Mas tem um cuidado: a âncora precisa ser razoável.",
+      "title": "Âncora razoável",
+      "sub": "o cliente compara",
+      "rails": [
+        {
+          "y": 520,
+          "max": 100,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "item caro",
+                "sub": "faz sentido?"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "CUIDADO",
+        "right": ""
+      },
+      "caption": "Se o item caro não fizer sentido,",
+      "title": "Âncora razoável",
+      "sub": "o cliente compara",
+      "rails": [
+        {
+          "y": 520,
+          "max": 100,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "item caro"
+              }
+            },
+            {
+              "value": 40,
+              "below": {
+                "label": "item principal",
+                "sub": "parece justo"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "CUIDADO",
+        "right": ""
+      },
+      "caption": "o cliente não compara. Ele desconfia.",
+      "title": "Âncora sem sentido",
+      "sub": "o cliente não compara · desconfia",
+      "rails": [
+        {
+          "y": 520,
+          "max": 100,
+          "dim": true,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "item caro"
+              }
+            },
+            {
+              "value": 40,
+              "below": {
+                "label": "item principal",
+                "sub": "parece justo"
+              }
+            }
+          ]
+        },
+        {
+          "y": 680,
+          "max": 100,
+          "markers": [
+            {
+              "value": 100,
+              "offscale": true,
+              "above": {
+                "label": "item absurdo",
+                "sub": "fora de qualquer régua"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "ruler",
+      "duration": 2,
+      "header": {
+        "left": "CUIDADO",
+        "right": ""
+      },
+      "caption": "o cliente não compara. Ele desconfia.",
+      "title": "Âncora sem sentido",
+      "sub": "o cliente não compara · desconfia",
+      "rails": [
+        {
+          "y": 520,
+          "max": 100,
+          "dim": true,
+          "markers": [
+            {
+              "value": 100,
+              "above": {
+                "label": "item caro"
+              }
+            },
+            {
+              "value": 40,
+              "below": {
+                "label": "item principal",
+                "sub": "parece justo"
+              }
+            }
+          ]
+        },
+        {
+          "y": 680,
+          "max": 100,
+          "zero": true,
+          "markers": [
+            {
+              "value": 0,
+              "offscale": false,
+              "below": {
+                "label": "item principal",
+                "sub": "sem referência"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": "Na Seu Auditor Internacional,",
+      "stage": 0
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": "a gente ajuda os gestores a precificar",
+      "stage": 1
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": "com base em dados, não em achismo.",
+      "stage": 2
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": "Se você quer entender mais sobre gestão,",
+      "stage": 3
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": "siga o nosso perfil.",
+      "stage": 3
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": null,
+      "stage": 4
+    },
+    {
+      "type": "sai",
+      "duration": 2,
+      "header": {
+        "left": "SEU AUDITOR INTERNACIONAL",
+        "right": ""
+      },
+      "caption": null,
+      "stage": 4
     }
   ]
 }
