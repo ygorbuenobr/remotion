@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Tesla Roadster — Ancoragem de preço (exemplo parcial)",
+    "section": "Tesla Roadster · Ancoragem",
+    "date": "15 OUT 2026",
+    "brand": "SEU AUDITOR",
+    "handle": "@seu.auditor"
+  },
+  "scenes": [
+    { "type": "title", "duration": 6, "text": "O carro voador da Tesla não está à venda." },
+    { "type": "caption", "duration": 6, "text": "Ele existe para vender a versão normal." },
+    { "type": "caption", "duration": 4, "text": "O Rocket é o que voa." },
+    {
+      "type": "bars",
+      "duration": 8,
+      "unitValue": 10000,
+      "caption": "Depois disso, 50 mil pelo Performance parece quase razoável.",
+      "items": [
+        { "label": "Thrust", "sublabel": "pista", "value": 250000, "valueLabel": "US$ 250 mil", "highlight": true },
+        { "label": "Performance", "sublabel": "rua", "value": 50000, "valueLabel": "US$ 50 mil" }
+      ]
+    },
+    {
+      "type": "ruler",
+      "duration": 6,
+      "max": 250000,
+      "caption": "O primeiro número que a gente vê vira a régua.",
+      "markers": [
+        { "label": "Performance", "value": 50000 },
+        { "label": "Thrust", "value": 250000, "highlight": true }
+      ]
+    },
+    { "type": "caption", "duration": 4, "text": "Isso se chama ancoragem de preço." },
+    {
+      "type": "endcard",
+      "duration": 8,
+      "cta": "Se você quer entender mais sobre gestão, siga o nosso perfil."
+    }
+  ]
+}

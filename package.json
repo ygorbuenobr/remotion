@@ -1,0 +1,32 @@
+{
+  "name": "remotion",
+  "version": "1.0.0",
+  "description": "Gerador de vídeos verticais educacionais (formato Seu Auditor) com Remotion",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts Video out/video.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygorbuenobr/remotion.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ygorbuenobr/remotion/issues"
+  },
+  "homepage": "https://github.com/ygorbuenobr/remotion#readme",
+  "dependencies": {
+    "@remotion/cli": "^4.0.537",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.31",
+    "typescript": "^5.9.3"
+  },
+  "private": true
+}
