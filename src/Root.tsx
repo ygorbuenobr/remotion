@@ -2,6 +2,7 @@ import React from "react";
 import { CalculateMetadataFunction, Composition } from "remotion";
 import roteiro from "../roteiro/tesla-ancoragem.json";
 import { Video } from "./Video";
+import { SketchTest } from "./SketchTest";
 import { theme } from "./theme";
 import type { Roteiro } from "./types";
 
@@ -11,6 +12,7 @@ const calculateMetadata: CalculateMetadataFunction<Roteiro> = ({ props }) => ({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id="Video"
     component={Video}
@@ -21,4 +23,6 @@ export const RemotionRoot: React.FC = () => (
     defaultProps={roteiro as unknown as Roteiro}
     calculateMetadata={calculateMetadata}
   />
+  <Composition id="SketchTest" component={SketchTest} durationInFrames={120} fps={theme.fps} width={theme.width} height={theme.height} />
+  </>
 );
