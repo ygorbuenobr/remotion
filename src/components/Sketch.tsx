@@ -18,7 +18,8 @@ export const SketchShape: React.FC<{
   seed?: number;
   start?: number; // frame em que começa a desenhar
   drawFrames?: number; // quantos frames leva para desenhar
-}> = ({ shape, stroke, strokeWidth = 3, seed = 1, start = 0, drawFrames = 14 }) => {
+  fillStyle?: "hachure" | "solid";
+}> = ({ shape, stroke, strokeWidth = 3, seed = 1, start = 0, drawFrames = 14, fillStyle = "hachure" }) => {
   const frame = useCurrentFrame();
   const paths = useMemo(() => {
     const opts = { roughness: 1.4, bowing: 1.2, seed, strokeWidth, stroke };
@@ -27,7 +28,7 @@ export const SketchShape: React.FC<{
         ? gen.rectangle(shape.x, shape.y, shape.w, shape.h, {
             ...opts,
             fill: shape.fill,
-            fillStyle: "hachure",
+            fillStyle,
             hachureGap: 8,
             fillWeight: 2,
           })
@@ -35,13 +36,13 @@ export const SketchShape: React.FC<{
         ? gen.ellipse(shape.x + shape.w / 2, shape.y + shape.h / 2, shape.w, shape.h, {
             ...opts,
             fill: shape.fill,
-            fillStyle: "hachure",
+            fillStyle,
             hachureGap: 8,
             fillWeight: 2,
           })
         : gen.line(shape.x1, shape.y1, shape.x2, shape.y2, opts);
     return gen.toPaths(d);
-  }, [shape, seed, stroke, strokeWidth]);
+  }, [shape, seed, stroke, strokeWidth, fillStyle]);
 
   const p = interpolate(frame, [start, start + drawFrames], [0, 1], {
     extrapolateLeft: "clamp",

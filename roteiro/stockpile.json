@@ -1,0 +1,46 @@
+{
+  "meta": { "title": "stockpile — b-roll automático", "handle": "@seuperfil" },
+  "scenes": [
+    { "type": "hero", "duration": 4, "title": "stockpile", "sub": "acha b-roll pra você", "caption": "Existe um repositório que *acha b-roll* pra você." },
+    { "type": "flow", "duration": 5, "title": "Você joga um clipe", "nodes": ["seu vídeo", "Whisper transcreve", "yt-dlp busca no YouTube", "Gemini dá a nota"], "caption": "A IA *transcreve*, *busca* e *avalia*, tudo sozinha." },
+    { "type": "steps", "duration": 6, "title": "Como funciona", "items": ["Você coloca o vídeo na pasta input", "A IA transcreve e tira os temas", "Busca no YouTube cada tema", "A IA avalia cada vídeo", "Você recebe tudo em pastas"], "caption": "São *cinco passos*, quase todos *automáticos*." },
+    { "type": "tree", "duration": 5, "title": "O que você recebe", "lines": [
+      { "text": "output/", "depth": 0 },
+      { "text": "your_project_20250718/", "depth": 1 },
+      { "text": "industrial_revolution_factory/", "depth": 2 },
+      { "text": "score08_vintage_factory_footage.mp4", "depth": 3, "score": "08" },
+      { "text": "score09_steam_engine_documentary.mp4", "depth": 3, "score": "09" },
+      { "text": "steel_production_process/", "depth": 2 },
+      { "text": "score07_molten_steel_pouring.mp4", "depth": 3, "score": "07" }
+    ], "caption": "Cada tema vira *uma pasta* e cada vídeo ganha *uma nota*." },
+    { "type": "list", "duration": 5, "title": "Com o Google Drive", "items": [
+      { "text": "Joga o vídeo na pasta de entrada", "note": "GOOGLE_DRIVE_INPUT_FOLDER_ID" },
+      { "text": "Recebe as pastas na pasta de saída", "note": "GOOGLE_DRIVE_OUTPUT_FOLDER_ID" },
+      { "text": "E-mail avisando quando termina", "note": "NOTIFICATION_EMAIL" }
+    ], "caption": "No *Google Drive*, ele *avisa por e-mail* quando termina." },
+    { "type": "list", "duration": 5, "title": "Pra rodar precisa de", "items": [
+      { "text": "Python" },
+      { "text": "FFmpeg" },
+      { "text": "Chave da API do Gemini", "note": "obrigatória" }
+    ], "caption": "Você precisa de *Python*, *FFmpeg* e uma *chave do Gemini*." },
+    { "type": "code", "duration": 7, "title": "Instalação", "lines": [
+      "git clone https://github.com/sasoder/stockpile.git",
+      "cd stockpile",
+      "python -m venv .venv",
+      "source .venv/bin/activate",
+      "pip install -r requirements.txt",
+      "cp .env.example .env",
+      "python stockpile.py"
+    ], "caption": "É *clonar*, *instalar* e *rodar*. A chave vai no *.env*." },
+    { "type": "list", "duration": 5, "title": "Dá pra ajustar", "items": [
+      { "text": "3 vídeos por tema", "note": "MAX_VIDEOS_PER_PHRASE=3" },
+      { "text": "Ignora vídeo com mais de 15 min", "note": "MAX_VIDEO_DURATION_SECONDS=900" },
+      { "text": "Limite de tamanho: 80 MB", "note": "MAX_VIDEO_SIZE_MB=80" }
+    ], "caption": "Você limita *quantos vídeos* por tema e *a duração*." },
+    { "type": "list", "duration": 5, "title": "Antes de usar", "items": [
+      { "text": "O material vem do YouTube. Confira os direitos de uso", "warn": true },
+      { "text": "Precisa de conta e chave do Gemini", "note": "serviço do Google, termos próprios" }
+    ], "caption": "Confere *os direitos* do material *antes de publicar*." },
+    { "type": "cta", "duration": 4, "title": "Quer mais repositórios explicados assim?", "caption": "Quer mais repositórios *explicados assim*? *Segue o perfil.*" }
+  ]
+}
